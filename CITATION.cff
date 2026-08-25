@@ -23,5 +23,10 @@ preferred-citation:
     - family-names: "Gois"
       given-names: "João Paulo"
   journal: "IEEE Geoscience and Remote Sensing Letters"
+  volume: 23
+  start: 1
+  end: 5
   year: 2026
+  month: 8
+  notes: "Art. no. 5506705"
   doi: "10.1109/LGRS.2026.3721837"

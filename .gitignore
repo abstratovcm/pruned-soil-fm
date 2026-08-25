@@ -30,10 +30,14 @@ results/flow_matching/*/saved_samples_iter_*/metadata.json
 # Scratch directories written during a run
 temp_output_iter_*/
 
+# Result bundles downloaded from the Code Ocean capsule
+results-*.zip
+results-*/
+
 # Published article; IEEE holds copyright on the version of record.
 grsl_camera_ready_submission/
 grsl_camera_ready_submission.zip
-document.pdf
+*.pdf
 
 # Python / environment
 __pycache__/

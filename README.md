@@ -348,10 +348,22 @@ what regenerates the committed figures.
   title   = {Unconditional Flow Matching With Classifier-Based Pruning for
              Distribution-Aligned Soil Spectral Synthesis},
   journal = {IEEE Geoscience and Remote Sensing Letters},
+  volume  = {23},
+  pages   = {1--5},
   year    = {2026},
+  note    = {Art. no. 5506705},
   doi     = {10.1109/LGRS.2026.3721837}
 }
 ```
+
+## Acknowledgments
+
+This work was supported in part by the Coordenação de Aperfeiçoamento de Pessoal de Nível
+Superior–Brasil (CAPES) under Finance Code 001; in part by the Conselho Nacional de
+Desenvolvimento Científico e Tecnológico (CNPq), Brazil, under Grant 403280/2025 and Grant
+302259/2026-0; and in part by the Arthur Bernardes Foundation (Funarbe), as part of a
+Collaborative Research Effort Between Brazilian Agricultural Research Corporation (Embrapa)
+and Bayer Crop Science under Project 6824.
 
 ## License
 
