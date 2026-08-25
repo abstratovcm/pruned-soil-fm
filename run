@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+# Code Ocean capsule driver; also runnable locally from a bare clone.
+cd "$(dirname "${BASH_SOURCE[0]}")"
+
+export MPLBACKEND=Agg
+
+# Regenerates results/tables/ and results/figures/ from the committed results/ artifacts.
+jupyter nbconvert --to notebook --execute --inplace notebooks/03_generate_paper_results.ipynb
+
+# Code Ocean collects declared outputs from /results; a local run leaves them in-repo.
+if [ -d /results ]; then
+    mkdir -p /results/tables /results/figures /results/notebooks
+    cp -r results/tables/. /results/tables/
+    cp -r results/figures/. /results/figures/
+    cp notebooks/03_generate_paper_results.ipynb /results/notebooks/
+fi

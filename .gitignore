@@ -1,0 +1,44 @@
+# Source data. LUCAS 2015 is distributed by ESDAC under its own terms; see README.
+data/LUCAS2015_spectra
+data/LUCAS2015_topsoildata_20200323
+data/prepared_datasets
+
+# Vendored baseline, cloned separately. The leading slash keeps this from also
+# matching results/tabsyn/, which holds the baseline's committed AUC numbers.
+/tabsyn
+
+# Generated samples: ~5.9 GB of per-iteration dumps, regenerable, and not needed
+# to verify any published number. Iteration 0 of the Comprehensive Joint Set is
+# kept so Figure 1 can be redrawn without re-running the Monte Carlo loop.
+#
+# The exemptions below are limited to aggregate statistics (feature means and
+# standard deviations, an 8-component PCA basis) and model-generated samples.
+# LUCAS is licensed with no sub-licensing, so do not widen them to anything
+# carrying individual records, Point_IDs or coordinates.
+results/flow_matching/*/saved_samples_iter_*/*.parquet
+results/flow_matching/*/saved_samples_iter_*/*.pkl
+!results/flow_matching/chem_phys_spectral/saved_samples_iter_0/fm_scaler_iter.pkl
+!results/flow_matching/chem_phys_spectral/saved_samples_iter_0/fm_transform_params.pkl
+!results/flow_matching/chem_phys_spectral/saved_samples_iter_0/pure_test.parquet
+!results/flow_matching/chem_phys_spectral/saved_samples_iter_0/pruned_test_0.5.parquet
+
+# Per-iteration metadata, consolidated into <variant>/train_times.csv. Figure 1
+# reads the seed from iteration 0 of the Comprehensive Joint Set.
+results/flow_matching/*/saved_samples_iter_*/metadata.json
+!results/flow_matching/chem_phys_spectral/saved_samples_iter_0/metadata.json
+
+# Scratch directories written during a run
+temp_output_iter_*/
+
+# Published article; IEEE holds copyright on the version of record.
+grsl_camera_ready_submission/
+grsl_camera_ready_submission.zip
+document.pdf
+
+# Python / environment
+__pycache__/
+*.pyc
+venv
+.ipynb_checkpoints/
+
+apresentacoes/

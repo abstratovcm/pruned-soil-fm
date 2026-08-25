@@ -1,0 +1,13 @@
+# Extra dependencies for the vendored TabSyn baseline
+# (https://github.com/amazon-science/tabsyn), on top of requirements.txt.
+#
+#   git clone https://github.com/amazon-science/tabsyn.git
+#   pip install -r requirements-tabsyn.txt
+#   pip install --no-deps zero ply quantiphy   # zero pins Click==7.0
+#   bash scripts/patch_tabsyn.sh               # mandatory; see that script
+
+category_encoders
+ml_collections
+icecream
+tomli
+tomli_w

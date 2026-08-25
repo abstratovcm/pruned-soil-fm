@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the article below."
+title: "Unconditional Flow Matching With Classifier-Based Pruning for Distribution-Aligned Soil Spectral Synthesis"
+authors:
+  - family-names: "Melício"
+    given-names: "Vinícius do Carmo"
+  - family-names: "Mourão"
+    given-names: "Vitor Hugo Miranda"
+  - family-names: "Barioni"
+    given-names: "Luís Gustavo"
+  - family-names: "Gois"
+    given-names: "João Paulo"
+preferred-citation:
+  type: article
+  title: "Unconditional Flow Matching With Classifier-Based Pruning for Distribution-Aligned Soil Spectral Synthesis"
+  authors:
+    - family-names: "Melício"
+      given-names: "Vinícius do Carmo"
+    - family-names: "Mourão"
+      given-names: "Vitor Hugo Miranda"
+    - family-names: "Barioni"
+      given-names: "Luís Gustavo"
+    - family-names: "Gois"
+      given-names: "João Paulo"
+  journal: "IEEE Geoscience and Remote Sensing Letters"
+  year: 2026
+  doi: "10.1109/LGRS.2026.3721837"

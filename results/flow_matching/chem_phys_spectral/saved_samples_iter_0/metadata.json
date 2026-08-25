@@ -1,0 +1,9 @@
+{
+    "iteration": 0,
+    "seed": 42,
+    "seed_val": 142,
+    "seed_test": 1042,
+    "n_val": 639,
+    "n_test": 639,
+    "time_train_sec": 14.116973161697388
+}

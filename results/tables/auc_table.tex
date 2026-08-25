@@ -1,0 +1,15 @@
+\begin{table*}[!ht]
+\centering
+\caption{Generative Fidelity (Test AUC) Across Dataset Variants}
+\label{tab:auc_results}
+\begin{tabular}{lccccc}
+\toprule
+Dataset Variant & Opt. Threshold & Pure Baseline (AUC) & Optimally Pruned (AUC) & AUC Improvement & Rejection Rate (\%) \\
+\midrule
+Chemistry Baseline & 0.50 & 0.5542 $\pm$ 0.0088 & 0.5442 $\pm$ 0.0106 & 0.0100 & 9.04 $\pm$ 1.15 \\
+Chemistry + Spectroscopy & 0.50 & 0.5861 $\pm$ 0.0083 & 0.5655 $\pm$ 0.0098 & 0.0205 & 11.60 $\pm$ 1.04 \\
+Chemistry + Soil Texture & 0.55 & 0.6687 $\pm$ 0.0197 & 0.5963 $\pm$ 0.0252 & 0.0723 & 32.88 $\pm$ 2.11 \\
+Comprehensive Joint Set & 0.50 & 0.6996 $\pm$ 0.0193 & 0.6133 $\pm$ 0.0208 & 0.0863 & 38.40 $\pm$ 1.87 \\
+\bottomrule
+\end{tabular}
+\end{table*}
